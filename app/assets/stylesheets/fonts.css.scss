@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'littlebits';
+  src: url('littlebits-webfont.eot');
+  src: url('littlebits-webfont.eot?#iefix') format('eot'), url('littlebits-webfont.woff') format('woff'), url('littlebits-webfont.ttf') format('truetype'), url('littlebits-webfont.otf') format('opentype'), url('littlebits-webfont.svg#littlebits') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'octicons';
+  src: url('octicons-regular-webfont.eot');
+  src: url('octicons-regular-webfont.eot?#iefix') format('eot'), url('octicons-regular-webfont.woff') format('woff'), url('octicons-regular-webfont.ttf') format('truetype'), url('octicons-regular-webfont.otf') format('opentype'), url('octicons-regular-webfont.svg#octicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+$line: 24;
+$column: 100% / 18;
+$font-size: 16;
+$em: $font-size * 1;
+$gutter: #{($line/2)/$em}em;
+
+// Color
+
+// Applied to the body as the primary text color.
+$off-black: #3D3732;
+
+$circuit-board: #f7fded;
+$circuit-side: #c6c09d;
+
+/* Core Branding */
+$blue: #2E3192;
+$pink: #EC268F;
+$green: #97C93C;
+$orange: #F79838;
+$purple: #782B8F;
+$link-color: $purple;
+
+.blue {
+  color: $blue;
+}
+.pink {
+  color: $pink;
+}
+.pink-shadow {
+  text-shadow: darken($pink,20%) 1px 1px 0px;
+}
+.green {
+  color: $green !important;
+}
+.green-shadow {
+  text-shadow: darken($green,10%) 1px 1px 0px;
+}
+.orange {
+  color: $orange;
+}
+.purple {
+  color: $purple !important;
+}
+
+/* Other Colours */
+$light-grey: #FCFCFC;
+$grey: #e0dfdf;
+$dark-grey: darken($grey,60%);
+$lilac: #ddbde5;
